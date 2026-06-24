@@ -11,7 +11,7 @@ This repository contains Python scripts I am building while learning cybersecuri
 - Build tools for penetration testing
 - Document my progress 
 
-##Port Scanner (Version 1)
+## Port Scanner (Version 1)
 
 This is a basic Python port scanner that checks ports 1-10 on a target IP address.
 
