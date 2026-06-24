@@ -4,6 +4,7 @@ This repository contains Python scripts I am building while learning cybersecuri
 
 ## Current Scripts
 - first_script.py: Basic port scanning practice
+- port_scanner.py: Additional port scanning practice 
 
 ## Goals
 - Improve scripting skills
