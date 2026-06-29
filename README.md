@@ -84,4 +84,3 @@ The last payment is 850.23 You paid off the loan in 24 months
 - Values are formatted to 2 decimal places for readability 
 - Full precision is used during calculations for accuracy 
 - Script is designed for learning purposes
-- 
