@@ -70,7 +70,7 @@ This project simulates a loan payment over time, including interest calculations
 ### Example Output 
 Paid 1000.00 of which 125.00 was interest Now I owe 49125.00
 Paid 1000.00 of which 122.81 was interest Now I owe 48247.81 ...
-The last payment is 850.23 You paif off the loan in 24 months
+The last payment is 850.23 You paid off the loan in 24 months
 
 ### Skills Demonstrated 
 - User input handling
