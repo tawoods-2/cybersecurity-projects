@@ -6,6 +6,7 @@ This repository contains Python scripts I am building while learning cybersecuri
 - first_script.py: Basic port scanning practice
 - port_scanner.py: Additional port scanning practice
 - rock_paper_scissors.py: Basic rock, paper, scissors game 
+- loan.py: Basic mortgage loan calculator
 
 ## Goals
 - Improve scripting skills
@@ -50,3 +51,37 @@ Do you want rock, paper, or scissors? Rock WIN! Computer choice: scissors
 
 ### File
 - rock_paper_scissors.py
+
+## Loan Calculator 
+
+This project simulates a loan payment over time, including interest calculations and monthly payments. 
+
+### Features
+- Takes user input for: 
+    - Loan amount 
+    - Annual percentage
+    - Monthly payment 
+    - Number of months 
+- Calculates monthly interest 
+- Applies payments over time using a loop 
+- Stops early if fhe loan is fully paid off 
+- Displays remaining balance after each payment 
+
+### Example Output 
+Paid 1000.00 of which 125.00 was interest Now I owe 49125.00
+Paid 1000.00 of which 122.81 was interest Now I owe 48247.81 ...
+The last payment is 850.23 You paif off the loan in 24 months
+
+### Skills Demonstrated 
+- User input handling
+- Type conversion ('float', 'int')
+- Loops ('for')
+- Conditional logic ('if')
+- Basic financial calculations 
+- Output formatting (rounding to 2 decimal places)
+
+### Notes
+- Values are formatted to 2 decimal places for readability 
+- Full precision is used during calculations for accuracy 
+- Script is designed for learning purposes
+- 
