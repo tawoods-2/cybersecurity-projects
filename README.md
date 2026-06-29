@@ -16,18 +16,18 @@ This repository contains Python scripts I am building while learning cybersecuri
 
 This is a basic Python port scanner that checks ports 1-10 on a target IP address.
 
-## Features
+### Features
 - Takes user input for target
 - Scan multiple ports
 - Identifies open vs closed ports
 
-## What I Learned
+### What I Learned
 - Python loops
 - User input handling
 - Basic networking with sockets
 - How port scanning works
 
-## Note
+### Note
 This project is for learning purposes only. 
 
 ## Rock Paper Scissors Game
