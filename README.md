@@ -84,3 +84,37 @@ The last payment is 850.23 You paid off the loan in 24 months
 - Values are formatted to 2 decimal places for readability 
 - Full precision is used during calculations for accuracy 
 - Script is designed for learning purposes
+
+## Space People Tracker
+
+This Python script uses an external API to retrieve and display names of astronauts currently in space. 
+
+### Features 
+- Connects to a public API using thr 'requests' module 
+- Retrieves real-time JSON data 
+- Parses and extracts useful information
+- Displays a list of astronauts currently in space 
+
+### How It Works 
+1. Sends a GET request to a public API endpoint: 
+    - 'http://api.open-notify.org/astros.json'
+2. Receives a JSON response containing astronaut data 
+3. Loops through the list of people in space 
+4. Prints each astronaut's name 
+
+### Example Output 
+The people currently in space are: John Doe Jane Smith ...
+
+### Requirements 
+You must install the 'requests' module before running this script: pip install requests 
+
+### Skills Demonstrated
+- Working with APIs
+- Using Python Libraries ('requests')
+- JSON parsing
+- Loops and data extraction 
+- Basic networking concepts 
+
+### Notes
+- This script depends on an external API, so it requires an internet connection 
+- Output may change based on real-time data from the API
