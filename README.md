@@ -8,6 +8,7 @@ This repository contains Python scripts I am building while learning cybersecuri
 - rock_paper_scissors.py: Basic rock, paper, scissors game 
 - loan.py: Basic mortgage loan calculator
 - space_people.py: Space People Track with actual API request
+- employee.py & company.py: Employee Payroll System
 
 ## Goals
 - Improve scripting skills
@@ -119,3 +120,52 @@ You must install the 'requests' module before running this script: pip install r
 ### Notes
 - This script depends on an external API, so it requires an internet connection 
 - Output may change based on real-time data from the API
+
+## Employee Payroll System
+
+This project demonstrates a simple employee management and payroll system using object-oriented programming in Python. 
+
+### Features 
+- Create employee objects with:
+    - First name 
+    - Last name
+    - Salary
+- Store employees in a company system 
+- Display all employees
+- Calculate and display weekly paychecks
+- Simulate paying employees
+
+### How It Works
+- 'Employee' class:
+    - Stores employee details
+    - Calculate weekly paycheck using salary
+
+- 'Company' class:
+    - Manages a list of employees 
+    - Adds employees to the system
+    - Displays employee information
+    - Process payroll
+
+### Example Output 
+Current Employees: Sarah Hess Lee Smith Bob Brown
+Paying Employees Paycheck for: Sarah Hess Amount: $961.54
+Paycheck for: Lee Smith Amount: $480.77
+Paycheck for: Bob Brown Amount: $1153.85
+
+### Skills Demonstrated 
+- Object-Oriented Programming 
+- Classes and objects 
+- Constructors ('__init__')
+- Methods and attributes 
+- Working with lists
+- Looping through objects 
+- Formatting output with f-strings
+
+### Concepts Used
+- Encapsulation (storing data in classes)
+- Reusability (methods like 'calculate_paycheck')
+- Separation of logic (Employee vs Company)
+
+### Notes
+- Weekly paycheck is calculated as salary divided by 52
+- This project is for learning purposes and demonstrates basic OOP design
