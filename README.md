@@ -7,6 +7,7 @@ This repository contains Python scripts I am building while learning cybersecuri
 - port_scanner.py: Additional port scanning practice
 - rock_paper_scissors.py: Basic rock, paper, scissors game 
 - loan.py: Basic mortgage loan calculator
+- space_people.py: Space People Track with actual API request
 
 ## Goals
 - Improve scripting skills
